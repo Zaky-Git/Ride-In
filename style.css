@@ -1,0 +1,167 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fredoka+One);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+
+}
+
+.body1{
+    min-width: 100vh;
+    background: url(asset/1.jpg);
+    background-repeat: no-repeat;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+}
+
+header .logo{
+    color: white;
+    font-weight: 650;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    width: 160px;
+    font-family: 'Montserrat',sans-serif;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header ul li a{
+    padding: 6px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase ;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 25px;
+}
+
+header ul li a:hover{
+    background: #fff;
+    color: black;
+
+}
+
+.bahasa{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+.bahasa:hover{
+    background: #fff;
+    color: black;
+}
+
+.opsibahasa{
+    color: black;
+    letter-spacing: 2px;
+}
+
+.beranda{
+    min-width: 100vh;
+    text-align: left;
+    padding-top: 180px;
+}
+
+h1{
+    font-size: 180px;
+    font-family:'Fredoka One', cursive;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    word-spacing: 0px;
+    padding-left: 140px;
+}
+
+h2{
+    font-size: 70px;
+    font-family:'Montserrat', cursive;
+    color: white;
+    padding-left: 140px;
+}
+
+.fotokanan{
+    position: relative;
+    float: right;
+    padding-right: 100px;
+}
+
+.mainfoto{
+    height: 650px;
+}
+
+.logomotor{
+    position: absolute;
+    left: 90px;
+    top: 0px;
+}
+
+.logomotor:hover{
+    position: absolute;
+    left: 80px;
+    top: -10px;
+    transition: 0.3s;
+}
+
+.logomobil{
+    position: absolute;
+    top: 41%;
+    left: 68%;
+    transform: translate(-50%,-50%);
+}
+
+.logomobil:hover{
+    position: absolute;
+    top: 39%;
+    left: 66%;
+    transition: 0.3s;
+}
+
+.logopayin{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+}
+
+.logopayin:hover{
+    position: absolute;
+    left: -2%;
+    top: 320px;
+    transition: 0.3s;
+}
